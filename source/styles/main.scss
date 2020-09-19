@@ -1,0 +1,18 @@
+$main-background: green;
+
+.test {
+    color: red;
+    background-color: $main-background;
+}
+
+.test2 {
+    background-color: $main-background;
+}
+
+.laouyt {
+    color: blue;
+
+    &__about-us {
+        color: yellow;
+    }
+}
